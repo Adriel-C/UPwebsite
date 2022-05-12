@@ -1,0 +1,143 @@
+#ditems{
+  display: block !important;
+  width: 100%;
+}
+
+.btn{
+  font-size: 22px !important;
+  color: white !important;
+  background-color: rgba(0,0,0,0) !important;
+  border-color: rgba(0,0,0,0) !important;
+  text-decoration: none !important;
+  font-family:  sans-serif !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 0 none rgba(0,0,0,0) !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+.btn-secondary.focus, .btn-secondary:focus, .btn.focus, .btn:focus{
+  box-shadow: rgba(0,0,0,0) !important;
+  background-color: rgba(0,0,0,0) !important;
+  border-color: rgba(0,0,0,0) !important;
+  outline: rgba(0,0,0,0) !important;
+  font-size: 22px !important;
+  color: white !important;
+  background-color: rgba(0,0,0,0) !important;
+  border-color: rgba(0,0,0,0) !important;
+  text-decoration: none !important;
+  font-family:  sans-serif !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 0 none rgba(0,0,0,0) !important;
+  padding: 0 !important;
+  border: 0 !important;
+
+} 
+body{
+  margin: 0;
+  background-image: url('bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.myBody{
+  background-color: rgba(255,255,255,0.91);
+  outline: 6px solid #800000;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 5%;
+  width: 60%;
+  padding: 30px 50px;
+}
+li{
+  display: inline-block;
+}
+header{
+  background-color: #800000;
+  margin: 0;
+}
+table{
+  display: inline-block;
+}
+td{
+  font-family:  sans-serif;
+  color: white;
+  font-weight: bold;
+}
+table, td, th{
+    padding:4px 8px;
+    border-spacing: 30px 10px;
+}
+#navtabs,label{
+    font-size: 22px;
+    color: white;
+    background-color: rgba(0,0,0,0);
+    text-decoration: none;
+    display: block;
+}
+td:hover{
+  background-color: #3d0919;
+}
+
+ul{
+  list-style-type: none;
+}
+fieldset{
+  border: none !important;
+}
+option{
+  all:revert !important;
+  display: inline-block;
+}
+select{
+  all:revert !important;
+  display: inline-block;
+}
+fieldset{
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
+  min-inline-size: none;
+}
+/* Academic Units */
+.chss, .csm, .som{
+  border: 3px solid #3d0919;
+  border-radius: 40px;
+  width: 80%;
+  height: auto;
+  margin: 50px 0 50px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.unitImg{
+  border-left: 10px solid #3d0919;
+  border-right: 3px solid #3d0919;
+  border-radius: 30px;
+  width: 180px;
+  height: 100%;
+}
+#unitImg{
+
+}
+.imgdiv, .child{
+  display: inline-block !important;
+
+}
+h4{
+  margin: 0px 10px;
+  color: #800000;
+}
+.desc{
+ margin: 0px 10px ;
+ text-align: justify;
+ display: inline-block;
+}
+
+label{
+  margin-bottom: 0 !important;
+}

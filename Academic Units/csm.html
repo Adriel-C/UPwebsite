@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="acadstyle.css">
+  <link rel="stylesheet" type="text/css" href="../bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<!-- Header Part / Navigation -->
+<header>
+  <center>
+    <div>
+      <!-- UP mindanao logo -->
+    <img src="logo.png" id="tplogo" style="width:150px;" class="img-fluid mx-auto d-block"/>
+  </div>
+  <nav class="navbar navbar-expand-sm justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+    <table>
+      <tr>
+        <td>
+          <!-- Menu bar for HOME -->
+          <a id="navtabs" class="navlink"href="..\home.html"> HOME </a>
+          </td>
+        </tr>
+    </table>
+  </li>
+  <li class="nav-item">
+    <table>
+      <tr>
+          <td>
+            <!-- Menu bar for Academic Programs -->
+            <a  id="navtabs" class="navlink"href="..\Academic Programs\AcademicPrograms.html"> ACEDEMIC PROGRAMS </a>
+          </td>
+      </tr>
+    </table>
+      </li>
+      <li class="nav-item">
+    <table>
+      <tr>
+        <td>
+
+
+          <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1 navtabss" data-bs-toggle="dropdown" aria-expanded="false">
+            ACADEMIC UNITS
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li id="ditems"><a class="dropdown-item" href="chss.html">College of Humanities and Social Sciences</a></li>
+            <li id="ditems"><a class="dropdown-item" href="csm.html">College of Science and Mathematics</a></li>
+            <li id="ditems"><a class="dropdown-item" href="som.html">School of Management</a></li>
+          </ul>
+        </div>
+
+        </td>
+      </tr>
+    </table>
+      </li>
+        <li class="nav-item">
+      <table>
+        <tr>
+          <td>
+            <!-- Menu bar for Sign-up -->
+            <a class="navlink"id="navtabs"href="../signup.html"> SIGN UP </a>
+          </td>
+        </tr>
+      </table>
+        </li>
+    </ul>
+    </nav>
+    </center>
+  </header>  <!-- End of Header -->
+  <body>
+<!-- UPMIN logo and Name -->
+    <center>
+      <div style="margin-top:30px;">
+    <img src="upmin logo.png" class="img-fluid mx-auto d-block"/>
+    </div>
+    </center>
+    <!-- Main Section -->
+    <div class="bg">
+      <center>
+      <!-- CSM Part -->
+      <div class="myBody container-sm container-md container-lg container-xl">
+          <div class="csm" id="csm">
+            <span class="imgdiv">
+              <img src="csm.png" class="unitImg mx-auto d-block" id="unitImg">
+            </span>
+            <span class="child">
+              <h4>College of Science and Mathematics</h4>
+              <p class="desc">The College of Science and Mathematics provides students with academically rigorous programs resulting in disciplinary and interdisciplinary bachelor's and master's degrees.</p>
+              <p class="desc">Currently, CSM has four undergraduate offerings, namely, BS Applied Mathematics, BS Biology, BS Computer Science, and BS Food Technology.</p>
+            </span>
+          </div>
+      </div>
+    </div>
+    </center>
+    </div> <!-- End of Main Section -->
+
+<script type="text/javascript" src="../bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="libraries/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="libraries/jqueryui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="libraries/jqueryui/jquery-ui.js"></script>
+    <script type="text/javascript">
+    $( function() {
+        $( "#hs" ).hide();
+    } );
+    $("#lspeed").click(function(){
+      $( function() {
+          $( "#speed" ).selectmenu();
+      } );
+    $("#hs").toggle();
+    });
+    function mion(){
+      let url = document.getElementById("speed").value;
+      window.open(url);
+    }
+    </script>
+  </body>
+</html>
